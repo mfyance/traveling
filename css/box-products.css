@@ -1,0 +1,308 @@
+.mybox{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+	.myinvitacion.mybox .recommend{
+		background: #f5f5f5 !important;
+	}
+	.mybox .recommend{
+		width: 100%;
+		background: #fff;
+		border-bottom: 2px solid #844d6c;
+		-webkit-box-shadow: 0px 1px 0px rgba(132, 77, 108, 0.57);
+		-moz-box-shadow:0px 1px 0px rgba(132, 77, 108, 0.57);
+		box-shadow:0px 1px 0px rgba(132, 77, 108, 0.57);
+		border-top-left-radius:4px;
+		border-top-right-radius:4px;
+		z-index: 5;
+	}
+	.mybox .recommend.foot{
+		border: none;
+		border-radius: 4px;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+		
+		.mybox .recommend .top{
+			width: 100%;
+			position: relative;
+			overflow: hidden;
+			max-height: 227px;
+		}
+			.mybox .recommend .top img{
+				width: 100%;
+				border-radius: 4px;
+				vertical-align: middle;
+				transform : scale(1);
+		        -moz-transform : scale(1);
+		        -webkit-transform : scale(1);
+		        -o-transform : scale(1); 
+		        -webkit-transition: all .3s ease-in-out;
+		        -moz-transition: all .3s ease-in-out;
+		        -ms-transition: all .3s ease-in-out;
+		        -o-transition: all .3s ease-in-out;
+		        transition: all .3s ease-in-out;
+			}
+			.mybox .recommend .top:hover img{
+				transform : scale(2);
+		        -moz-transform : scale(2);
+		        -webkit-transform : scale(2);
+		        -o-transform : scale(2);    
+			}
+			.mybox .recommend .top .verecomendado{
+				position: absolute;
+				top: 26%;
+				left: 39%;
+				z-index: 2;
+			}
+				.mybox .recommend .top .verecomendado .circle{
+					padding: 30px;
+					height: 30px;
+					width: 30px;
+					border-radius: 50%;
+					background: #fff;
+					-webkit-transition: all .2s ease-in-out;
+					-moz-transition: all .2s ease-in-out;
+					-ms-transition: all .2s ease-in-out;
+					-o-transition: all .2s ease-in-out;
+					transition: all .2s ease-in-out;
+					opacity: 0;						
+				}
+				
+				.mybox .recommend .top .verecomendado .circle:hover{
+					background: #483b60;							
+				}
+				.mybox .recommend .top .verecomendado .circle i{
+					padding: 0;
+					margin: 0;
+				}
+				.mybox .recommend .top .bg-hover{
+					background: rgba(0,0,0,.5);
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 1;
+					opacity: 0;
+					-webkit-transition: all .2s ease-in-out;
+					-moz-transition: all .2s ease-in-out;
+					-ms-transition: all .2s ease-in-out;
+					-o-transition: all .2s ease-in-out;
+					transition: all .2s ease-in-out;
+				}
+				.mybox .recommend .top:hover .bg-hover{
+					opacity: 1;
+				}
+
+	.mybox .recommend .bottom{
+		width: 100%;
+		overflow: hidden;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}		
+		.mybox .recommend .bottom .first{
+			width: 100%;
+			text-align: center;
+			border-bottom: 1px solid #e4e0dc;
+			padding: 15px 0;				
+		}
+			.mybox .recommend .bottom .first h4{
+				font: 19px calibri, Helvetica;
+				color: #32234f;
+				display: block;
+			}
+		.mybox .recommend .bottom .second{
+			width: 100%;
+			text-align: center;
+			padding: 15px 0;				
+		}
+			.mybox .recommend .bottom .second p{
+				font:16px calibri, Helvetica;
+				color: #333333
+			}
+			.mybox .recommend .bottom .second em{
+				font-family: calibri, Helvetica,
+			}
+
+		.mybox .recommend .bottom .third{
+			width: 100%;
+			text-align: center;
+			padding: 0;
+			margin: 0 auto;
+		}
+			.mybox .recommend .bottom .third .one{
+				width: 60%;
+				float: left;
+			}			
+				.mybox .recommend .bottom .third .one>div{					
+					text-align: left;
+					display: block;
+				}
+					.mybox .recommend .bottom .third .one .icons>div{ 
+						display:block;
+						float: left;
+						vertical-align: middle;
+						font: 17px calibri, Helvetica;
+						color: #505050;
+						width: 55px;
+						height: 55px;
+						line-height: 55px;
+					}
+						.mybox .recommend .bottom .third .one .icons .message{
+							text-align: center;
+						}
+			.mybox .recommend .bottom .third .two{
+				width: 40%;
+				float: left;
+			}
+				.mybox .recommend .bottom .third .two .toranking{
+					float: right;
+					text-align: right;
+					height: 55px;
+					line-height: 55px;
+				}
+/*tipos de. recomednados*/
+.mybox .recommend.especial:after{
+	content: '';
+	background: url("../imagenes/general/sprite.png") -755px -237px no-repeat;	
+	width: 40px;
+	height: 59px;
+	position: absolute;
+	top: -1px;
+	left: 8px;
+}
+
+
+/*Tipo de Oferta*/
+.logo-oferta{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-image: url("../imagenes/general/sprite.png");
+	background-position: -650px -650px;
+	width: 150px;
+	height: 150px;
+	z-index:1;
+	
+}
+
+	.logo-oferta .texto{
+		padding: 30px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.logo-oferta .texto .titulo{
+		font: 27px everafter;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.logo-oferta .texto .percent{
+		font: 80px aempirial;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: right;
+	}
+	.logo-oferta .texto .simbolo1,
+	.logo-oferta .texto .simbolo2{
+		font: 35px aempirial;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+		text-align: left;
+	}
+
+
+.mybox .vermas{
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;	
+	border-bottom: 1px solid #c2c2c2;
+	border-top: 1px solid #c2c2c2;
+	-webkit-box-shadow:inset 0px 1px 1px #FFFFFF,
+					   inset 0px -1px 1px #FFFFFF;
+	-moz-box-shadow:inset 0px 1px 1px #FFFFFF,
+					   inset 0px -1px 1px #FFFFFF;
+	box-shadow:inset 0px 1px 1px #FFFFFF,
+					   inset 0px -1px 1px #FFFFFF;
+}
+	.mybox .vermas button{
+		text-align: center;
+		font:17px trajan;
+		padding: 5px;
+		width: auto;
+		border:none;
+		background: transparent !important;
+		margin: 0 auto;
+		color: #483b60;
+		cursor: pointer;
+	}
+	.mybox .vermas button:hover{
+		color: #ad8e5b;
+	}
+	
+
+
+	/*Footer*/
+	.mybox .recommend.foot span.line{
+		border-top: 2px solid #543361 !important;
+		height: 1px !important;
+		max-width: 35px !important;
+		margin: 0 auto !important;
+		text-align: center !important;
+		display: block !important;
+		width: 100% !important;
+		/*padding-bottom: 10px !important;*/
+		margin-top: 10px !important;
+	}
+	.mybox .recommend.foot .bottom .first h5{
+		font: 18px calibri, Helvetica;
+		color: #32234f;
+		display: block;
+	}
+	.mybox .recommend.foot em{
+		font: 19px calibri, Helvetica;
+		color: #32234f;
+	}
+	#categorias .catebox{
+		overflow: hidden;
+	}
+
+@media only screen and (max-width : 870px){
+	#categorias .catebox{
+		width: 100% !important;
+		padding: 0 10px;
+		height: auto;
+		margin-bottom: 20px;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (max-width : 767px){
+	.logo-oferta .texto .percent {
+		width: 60%;
+		float: left;
+	}
+	.logo-oferta .texto .simbolos {
+		width: 40%;
+		float: left;
+	}
+}
+@media only screen and (max-width : 460px){
+	.mybox .recommend .bottom .third .one {
+		width: 65%;
+	}
+	.mybox .recommend .bottom .third .two {
+		width: 35%;
+	}
+}

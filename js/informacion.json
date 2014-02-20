@@ -1,0 +1,33 @@
+{
+	"informacion":
+	[
+		{
+			"infoespecifica":{
+				"id": "0",
+				"nombre" : "Descripción",
+				"texto" : "[0] Texto falso  que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto aque luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente,texto falso que luego ser[a cambiado por el cliente,texto falso que luego ser[a cambiado por el cliente,texto falso que luego ser[a cambiado por el cliente,texto falso que luego ser[a cambiado por el cliente."
+			}
+		},
+		{
+			"infoespecifica":{
+				"id": "1",
+				"nombre" : "Promedio de Honorarios de Abogado",
+				"texto" : "[1] Texto falso que luego sera cambiado por el cliente, texto falso ,texto falso que luego ser[a cambiado por el cliente,texto falso que luego ser[a cambiado por el cliente."
+			}
+		},
+		{
+			"infoespecifica": {
+				"id": "2",
+				"nombre" : "Costo total",
+				"texto" : "[2] Texto falso que luego sera cambiado por el cliente, texto falso que luego ser[a ca."
+			}
+		},
+		{
+			"infoespecifica": {
+				"id": "3",
+				"nombre" : "Asesoría",
+				"texto" : "[3] Texto falso que luego sera cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto aque luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente, texto falso que luego ser[a cambiado por el cliente,texto falso que luego ser[a cambiado por el cliente,texto falso que luego ser[a cambiado por ."
+			}
+		}
+	]
+}

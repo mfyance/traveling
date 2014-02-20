@@ -1,0 +1,292 @@
+/*  Font Awesome styles
+    ------------------------------------------------------- */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  vertical-align: middle;
+}
+.icon-arrow-left:before           { content: "\f060"; }
+.icon-arrow-right:before          { content: "\f061"; }
+
+/*My icons*/
+[class^="myicon-"],
+[class*="myicon-"] {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	background-image: url("../../imagenes/general/sprite.png");
+	background-repeat: no-repeat;
+}
+
+
+.myicon-link-facebook{	
+	background-position: -540px -378px;
+	width: 38px;
+	height: 39px;
+}
+	.myhover-toico:hover .myicon-link-facebook{	
+		background-position: -541px -427px;
+	}
+.myicon-link-twitter{	
+	background-position: -491px -377px;
+	width: 39px;
+	height: 39px;
+}
+	.myhover-toico:hover .myicon-link-twitter{	
+		background-position: -492px -426px;
+	}
+
+.myicon-intro-prev{	
+	background-position: -356px -132px;
+	width: 49px;
+	height: 49px;
+}
+	.myhover-toico:hover .myicon-intro-prev{	
+		background-position:-354px -66px;
+	}
+
+.myicon-intro-next{	
+	background-position:-415px -131px;
+	width: 49px;
+	height: 49px;
+}
+	.myhover-toico:hover .myicon-intro-next{	
+		background-position:-413px -66px;
+	}
+
+.myicon-phone{	
+	background-position:-15px -256px;
+	width: 20px;
+	height: 23px;
+	padding-right: 4px;
+}
+
+
+/*Paises*/
+.myicon-castellano{	
+	background-position: -262px -29px;
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;	
+	border: 2px solid #fff;
+}
+.myicon-chino{	
+	background-position: -343px -29px;
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;	
+	border: 2px solid #fff;
+}
+.myicon-ingles{	
+	background-position: -423px -29px;
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;	
+	border: 2px solid #fff;
+}
+
+/*Redes Sociales*/
+.myicon-facebook{	
+	background-position: -63px -218px;
+	width: 24px;
+	height: 23px;
+}
+	.myhover-toico:hover .myicon-facebook{
+		background-position: -63px - 218px
+	}
+
+.myicon-twitter{	
+	background-position: -63px -135px;
+	width: 24px;
+	height: 24px;
+}
+	.myhover-toico:hover .myicon-twitter{
+		background-position: -15px -135px
+	}
+
+.myicon-linkedn{
+	background-position: -63px -178px;
+	width: 25px;
+	height: 23px; 
+}
+	.myhover-toico:hover .myicon-linkedn{
+		background-position: -15px -177px
+	}
+
+
+.myicon-to-natural{
+	background-position: -116px -1px;
+	width: 98px;
+	height: 98px; 
+}
+.myicon-to-empresa{
+	background-position: -1px -1px;
+	width: 98px;
+	height: 98px; 
+}
+.myicon-arrow-bottom{
+	background-position: -23px -307px;
+	width: 45px;
+	height: 18px; 
+}
+.myicon-separator{
+	background-position: -85px -353px;
+	width: 1px;
+	height: 23px; 
+}
+
+.myicon-select-service{
+	background-position: -39px -353px;
+	width: 18px;
+	height: 18px; 
+}
+	.myhover-toico:hover .myicon-select-service{
+		background-position: -39px -383px;		
+	}
+
+
+.myicon-direccion{
+	background-position: -43px -421px;
+	width: 14px;
+	height: 23px; 
+	margin-right: 4px;
+}
+.myicon-telefono2{
+	background-position: -69px -255px;
+	width: 16px;
+	height: 23px;
+	margin-right: 4px;
+}
+
+.myicon-manya{
+	background-position: -39px -464px;
+	width: 24px;
+	height: 24px; 
+}
+	.myhover-toico:hover .myicon-manya{
+		background-position: -87px -464px;		
+	}	
+
+
+.activo .myicon-flecha-servicio2{
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+	width: 32px;
+	height: 12px;
+	background-position:-123px -143px;
+	top: 44%;
+	right: 20px;
+}
+.myicon-flecha-servicio2{
+	webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	background-position: -136px -178px;
+	width: 12px;
+	height: 30px;
+	top: 30%;
+	right: 20px;
+}
+.activo .myicon-flecha-servicio{
+	width: 32px;
+	height: 12px;
+	background-position:-123px -143px;
+	top: 44%;
+	right: 10px;
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.myicon-flecha-servicio{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	background-position:-136px -178px;
+	width: 12px;
+	height: 30px;
+	top: 30%;
+	right: 20px;
+}
+
+/*Nosotros*/
+.myicon-mision{	
+	background-position:-700px -3px;
+	width: 135px;
+	height:134px;	
+}
+.myicon-vision{	
+	background-position:-853px -6px;
+	width: 135px;
+	height:134px;
+}
+.myicon-play{	
+	background-position:-878px -174px;
+	width: 115px;
+	height:115px;
+}
+.myicon-calendar{	
+	background-position:-13px -522px;
+	width: 18px;
+	height:18px;
+	margin-right: 5px;
+	vertical-align: -4px !important
+}
+.myicon-arrow-der{
+	margin-left: 5px;
+	background-position:-132px -228px;
+	width: 8px;
+	height:16px;	
+	vertical-align: -4px !important
+}
+
+.myicon-play:hover{
+	opacity: 1;
+}
+.myicon-play{
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+	opacity: 0.7;
+	cursor: pointer;
+	background-position:-876px -729px;
+	width: 113px;
+	height:113px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;	
+}
